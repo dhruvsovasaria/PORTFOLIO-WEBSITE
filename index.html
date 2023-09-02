@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap"
+      rel="stylesheet"
+    />
+    <title>DHRUV SOVASARIA</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav">
+        <div>PORTFOLIO</div>
+        <div class="subnav">
+          <a href="#about">About</a>
+          
+          <a href="#experience">Experience</a>
+        </div>
+      </div>
+    </nav>
+    <br /><br /><br />
+    <div class="name">
+      <h1 class="name">Dhruv <br> Sovasaria
+      </h1>
+
+      
+    </div>
+    <img
+      src="https://media.licdn.com/dms/image/D5603AQH_lxPcgZ4loA/profile-displayphoto-shrink_800_800/0/1668243967986?e=2147483647&v=beta&t=E8AJ7dQ2gImnyZowtN4V7yQe0_vnbTUI6APuVWa1Z10"
+      alt="Dhruv"
+      title="dhruvvv"
+      class="dhruvimg center"
+    />
+
+    <div class="content">
+      
+    <div class="heading"><h1 class=""><u>About</u></h1></div>
+    <div id="about" class="about">
+      <p style="text-align: center">
+        <b>Hey there, I'm Dhruv Sovasaria, a second-year student at SRMIST,
+            Chennai, with a zest for both web development and machine learning. My
+            journey's been fueled by transforming ideas into captivating websites
+            and exploring the world of intelligent machines. I've gained corporate
+            insights at AARUUSH, refining my teamwork and problem-solving skills. A
+            perpetual learner, I thrive on staying ahead in the dynamic tech sphere.
+            Join me as I weave creativity and innovation into every digital
+            endeavor.
+          </p></b>
+    </div>
+  
+<div class="experience-container" id="experience">
+  <div class="heading">
+    <h1 class=""><u>Experience</u></h1>
+  </div>
+  <div class="experience">
+   <b> <p>
+      I have been learning coding recently and have gained experience in several programming languages, including:
+      <ul>
+        <li>Java</li>
+        <li>CSS</li>
+        <li>C++</li>
+        <li>Python</li>
+        <li>HTML</li>
+      </ul>
+    </p></b>
+  </div>
+</div>
+
+
+
+    <div>
+      
+    </div>
+  
+
+<div class="contact-container">
+  <div class="heading">
+    <h1 class=""><u>Contact</u></h1>
+  </div>
+  <div class="contact-form">
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</div>
+
+    </div>
+  </body>
+  <script>
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+  
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+  
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+  
+</html>
